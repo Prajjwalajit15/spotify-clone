@@ -1,0 +1,70 @@
+body,html{
+    font-family: "nunito",sans-serif;
+    background-color: #202020;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+} 
+nav{
+    width: 16%;
+    height: 100%;
+    color: white;
+    background-color: #000000;
+     justify-content: baseline;
+    display: flex;  
+             
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: white;
+} 
+.spotify-logo{
+    margin:8%; 
+    width: 90%; 
+    height:7%;
+    align-self: center;
+} 
+.home-logo1{ 
+    justify-self: center;
+    width: 97%;  
+    background-color: #282828; 
+}  
+.home-logo{
+    width: 8%; 
+    margin-right: 5%; 
+    margin-left:10%; 
+} 
+.mini-logo{
+    background-image: url("assets/mini-logo-background.png");
+}
+.mini-plus{
+    background-color: white;
+}
+.box-3{  
+    margin-left: 10% ; 
+    flex-shrink: 1;
+}
+.box-4{ 
+    margin-top: 10%;  
+} 
+.box-1,.box-2,.box-3,.box-4{
+    font-size: 12px; 
+}
+ .main-container{
+    display: flex;
+ }
+ .head{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+ } 
+ .head-box-1{
+    height: 20px;
+    margin-top: 10px;
+     position: sticky;
+ }
+ .head-box-2{
+     height: 30px;
+     margin-top: 10px;
+ }
