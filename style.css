@@ -1,29 +1,37 @@
 body,html{
     font-family: "nunito",sans-serif;
     background-color: #202020;
-    height: 100%;
+    height: 100vh;
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 } 
 nav{
     width: 16%;
-    height: 100%;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    /* bottom: 0; */
     color: white;
     background-color: #000000;
      justify-content: baseline;
-    display: flex;  
-             
-    flex-direction: column;
+    display: flex;   
+    flex-direction: column; 
+
 }
-a{
+.main-container{
+    height: 100vh;
+}
+a{  
     text-decoration: none;
     color: white;
 } 
-.spotify-logo{
+.spotify-logo{ 
     margin:8%; 
-    width: 90%; 
-    height:7%;
-    align-self: center;
+    width: 80%; 
+    height:7%; 
+    padding-right: 15%;
 } 
 .home-logo1{ 
     justify-self: center;
@@ -56,8 +64,11 @@ a{
  }
  .head{
     width: 100%;
-    display: flex; 
-    justify-content: space-between; 
+    display: flex;   
+    flex-direction: column; 
+    margin-top: 0;
+    margin-left: 18%;
+
  } 
  .head-box-1{
     height: 20px;
@@ -68,3 +79,132 @@ a{
      height: 30px;
      margin-top: 10px;
  }
+ .head-container{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    display: flex;
+    padding-left: 200px;
+    width: 100%;
+    justify-content: space-between;  
+    
+ }
+ .head-container-element{
+    padding-left: 17%;
+ }
+ .folder{
+    width: 100%;  
+    display: flex;
+    flex-direction: column;  
+   margin-top: 2%;
+   color: white;
+   margin-left: 2%;
+    
+      
+ }
+ .folder-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+ }
+ .folder-element{ 
+    display: flex;
+    width: 33%; 
+     text-align: center; 
+     height: 20%;
+     background-color: #303030;    
+     overflow: hidden;
+ } 
+ .f-text { 
+    margin:5%;
+ }
+ .folder-element-img{
+    background-image: url("assets/heart-background.png"); 
+ }
+ .f-text-4{
+    width: 40%;
+    text-align: left; 
+ }
+ .suggestion-container{
+    width: 80%;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 0%;
+ }
+.suggestion-elements{ 
+    display: flex;   
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.suggestion-card{ 
+    width: 23%;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    background-color: #181818; 
+    margin: 1%;
+}
+.suggestion-img>img{
+    margin : 2%;
+    width: 90%; 
+}
+.music-container{
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 13%;
+    background-color: #181818;
+    display: flex; 
+    
+}
+ .music-box1{
+    display: flex;
+    justify-content: center;
+ }
+.music-container-element-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.music-container-element-2{
+    display: flex;
+    flex-direction: column;
+     margin-top: 10%;
+    
+    color: white;
+    width: 100%;
+    height: 50%;
+}
+.music-container-element-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 15%;
+}
+.music-p1{
+    font-size: 80%;
+    width: 100%;
+     margin: 0%;
+}
+.music-p2{
+    font-size: 50%;
+    width: 100%; 
+    margin :0%;
+    margin-right: 100%;
+}
+.Dreaming{
+    width: 90%;
+    height: 90%;
+}
+.music-img{
+    width: 100%;
+}

@@ -1,54 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <div  class="main-container">
-    <nav>
-         <img class="spotify-logo" src="./assets/Spotify logo.png" alt="logo-image">
+  <body>
+    <!-- side bar -->
+    <div class="main-container">
+      <nav>
+        <img
+          class="spotify-logo"
+          src="./assets/Spotify logo.png"
+          alt="logo-image"
+        />
+
         <div class="box-1">
-            <p class="home-logo1 home-logo2"><img src="assets/home.png" class="home-logo" alt="home-logo"><a href="#">Home</a></p>
-            <p class="home-logo2"><img src="assets/search.png" class="home-logo" alt="search-logo"><a href="#"></a>Search</p>
-            <p class="home-logo2"><img src="assets/library.png" class="home-logo" alt="library-logo"><a href="#">Your Library</a></p>
+          <p class="home-logo1 home-logo2">
+            <img src="assets/home.png" class="home-logo" alt="home-logo" /><a
+              href="#"
+              >Home</a
+            >
+          </p>
+          <p class="home-logo2">
+            <img
+              src="assets/search.png"
+              class="home-logo"
+              alt="search-logo"
+            /><a href="#"></a>Search
+          </p>
+          <p class="home-logo2">
+            <img
+              src="assets/library.png"
+              class="home-logo"
+              alt="library-logo"
+            /><a href="#">Your Library</a>
+          </p>
         </div>
         <div class="box-2">
-            <p><img src="assets/mini-plus.png" class="home-logo mini-plus home-logo2" alt="mini-plus">Create Playlist
-            </p>
-            <p><img src="assets/mini-heart.png" class="home-logo mini-heart home-logo2" alt="heart-img">Liked Songs</p>
-            <p><img src="assets/mini-logo.png" class="home-logo mini-logo home-logo2" alt="logo-img">Your Episodes</p>
+          <p>
+            <img
+              src="assets/mini-plus.png"
+              class="home-logo mini-plus home-logo2"
+              alt="mini-plus"
+            />Create Playlist
+          </p>
+          <p>
+            <img
+              src="assets/mini-heart.png"
+              class="home-logo mini-heart home-logo2"
+              alt="heart-img"
+            />Liked Songs
+          </p>
+          <p>
+            <img
+              src="assets/mini-logo.png"
+              class="home-logo mini-logo home-logo2"
+              alt="logo-img"
+            />Your Episodes
+          </p>
         </div>
         <div class="box-3">
-            <p>FAV</p>
-            <p>Daily Mix 1</p>
-            <p>Discover Weekly</p>
-            <p>Malayalam</p>
-            <p>Dance / Electronix Mix</p>
-            <p>EDM / Popular</p>
+          <p>FAV</p>
+          <p>Daily Mix 1</p>
+          <p>Discover Weekly</p>
+          <p>Malayalam</p>
+          <p>Dance / Electronix Mix</p>
+          <p>EDM / Popular</p>
         </div>
-        <div class="box-4"><img src="assets/download-logo.png" class="home-logo" alt="download-logo">Install app</div>
-    </nav>
-     
-    <header class="head">
-        <div>
-            <div><img src="assets/left-angle.png" class="head-box-1" alt="left-angle-img"> 
-             <img src="assets/right-angle.png" class="head-box-1" alt="right-angle-img"></div>
+        <div class="box-4">
+          <img
+            src="assets/download-logo.png"
+            class="home-logo"
+            alt="download-logo"
+          />Install app
         </div>
-        <div  ><img src="assets/User.png" class="head-box-2" alt="user-img"></div>
-    </header>
+      </nav>
 
- 
-</div>
-</body>
+      <!-- head -->
+      <div class="head">
+        <div class="head-container">
+          <div class="head-container-element">
+            <img
+              src="assets/left-angle.png"
+              class="head-box-1"
+              alt="left-angle-img"
+            />
+            <img
+              src="assets/right-angle.png"
+              class="head-box-1"
+              alt="right-angle-img"
+            />
+          </div>
 
+          <div>
+            <img src="assets/User.png" class="head-box-2" alt="user-img" />
+          </div>
+        </div>
+        <!-- folders -->
+        <div class="folder">
+          <div><h1>Good morning</h1></div>
+          <div class="folder-container">
+            <div class="folder-element">
+              <img
+                src="assets/mini-heart.png"
+                class="folder-element-img"
+                alt="heart img"
+              />
+              <div class="f-text">Liked Songs</div>
+            </div>
+            <div class="folder-element">
+              <img src="assets/neffex-pic.png" alt="neffex-pic" />
+              <div class="f-text">Neffex Playlist</div>
+            </div>
+            <div class="folder-element">
+              <img src="assets/korean.png" alt="korean" />
+              <div class="f-text">K/ DA</div>
+            </div>
+            <div class="folder-element">
+              <img src="assets/effect.png" alt="effect" />
+              <div class="f-text f-text-4">Dance / Electronic Mix</div>
+            </div>
+          </div>
+        </div>
+        <!-- suggestion -->
+        <div class="suggestion-container">
+          <div class="suggestion-text"><h1>Shows you might like</h1></div>
+          <div class="suggestion-elements">
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img
+                  src="assets/weekly-motivation.png"
+                  alt="weekly-motivation"
+                />
+              </div>
+              <div>Weekly Motivatio...</div>
+              <div>Ben Ina Scott</div>
+            </div>
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img src="assets/MEDITATION SELF.png" alt="MEDITATION" />
+              </div>
+              <div>MEDITATION SELF</div>
+              <div>Ibn Hussain Aleen</div>
+            </div>
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img src="assets/Words beyond.png" alt="word" />
+              </div>
+              <div>Words beyond act...</div>
+              <div>Samuel Scott</div>
+            </div>
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img src="assets/The Alexa Show.png" alt="the Alexa show" />
+              </div>
+              <div>The Alexa Show</div>
+              <div>Adriana Tom</div>
+            </div>
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img src="assets/The Alexa Show.png" alt="the Alexa show" />
+              </div>
+              <div>The Alexa Show</div>
+              <div>Adriana Tom</div>
+            </div>
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img src="assets/The Alexa Show.png" alt="the Alexa show" />
+              </div>
+              <div>The Alexa Show</div>
+              <div>Adriana Tom</div>
+            </div>
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img src="assets/The Alexa Show.png" alt="the Alexa show" />
+              </div>
+              <div>The Alexa Show</div>
+              <div>Adriana Tom</div>
+            </div>
+            <div class="suggestion-card">
+              <div class="suggestion-img">
+                <img src="assets/The Alexa Show.png" alt="the Alexa show" />
+              </div>
+              <div>The Alexa Show</div>
+              <div>Adriana Tom</div>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <footer class="music-container">
+            <div class="music-box1">
+            <div class="music-container-element-1"> 
+                <div class="Dreaming"><img src="assets/Dreaming On.png" class="Dreaming" alt="Dreaming"></div>
+                <div class="music-container-element-2">
+                    <div><p class="music-p1">Dreaming On</p></div>
+                   <div><p class="music-p2">NEFFEX</p></div>
+                </div>
+                <div class="music-container-element-3"><img class="music-img" src="assets/green heart.png" class="green-heart" alt="green"></div>
+            </div>
+        </div>
+        </footer>
+    </div>
+    </div>
+  </body>
 </html>
