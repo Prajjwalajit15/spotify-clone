@@ -1,0 +1,95 @@
+body,
+html {
+  font-family: "nunito", sans-serif;
+  background-color: #151515;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+nav {
+    width: 16%;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    color: white;
+    background-color: #000000; 
+    display: flex;
+     
+    flex-direction: column;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+.spotify-logo {
+    margin: 8%;
+    width: 80%;
+    height: 7%;
+    padding-right: 15%;
+  } 
+  
+.all-boxes{
+    height: 30%;
+    gap:0%;
+
+}
+.home-logo1 {
+  justify-self: center;
+  width: 97%;
+  background-color: #282828;
+}
+.home-logo {
+    font-size: 100%;
+  width: 8%;
+  margin-right: 5%;
+  margin-left: 10%;
+}
+.mini-logo {
+  background-image: url("assets/mini-logo-background.png");
+}
+.mini-plus {
+  background-color: white;
+}  
+.box-1{
+    height: 20%;
+} 
+header{
+    display: flex;
+}
+.hero{ 
+    background: linear-gradient(to bottom, #80a69d, #151515);
+    width: 100%; 
+    color: white;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%; 
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    margin-bottom: 500%;
+    gap: 0;
+     
+}
+.hero-img{ 
+    width: 70%;  
+    margin-left: 40%; 
+}
+ .hero-sec-1{
+     width: 50%;  
+     margin-left: 10%;
+     margin-right: 6%;
+     margin-top: -2%;
+ }
+  .hero-sec-2{
+    width: 70%;
+  margin-right: 10%;
+  margin-bottom: 5%; 
+ } 
+.hero-div-h1{
+  width: 100%;
+}

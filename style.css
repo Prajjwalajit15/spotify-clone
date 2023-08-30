@@ -1,210 +1,278 @@
-body,html{
-    font-family: "nunito",sans-serif;
-    background-color: #202020;
-    height: 100vh;
-    margin: 0%;
-    padding: 0%;
-    overflow-x: hidden;
-} 
-nav{
-    width: 16%;
-    position: fixed;
-    z-index: 0;
-    left: 0;
-    top: 0;
-    /* bottom: 0; */
-    color: white;
-    background-color: #000000;
-     justify-content: baseline;
-    display: flex;   
-    flex-direction: column; 
+body,
+html {
+  font-family: "nunito", sans-serif;
+  background-color: #151515;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+nav {
+  width: 16%;
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color: white;
+  background-color: #000000; 
+  display: flex;
+  justify-content: baseline; 
+  flex-direction: column;
+}
+.main-container {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.spotify-logo {
+  margin: 8%;
+  width: 80%;
+  height: 7%;
+  padding-right: 15%;
+}
+.all-boxes{
+    height: 30%;
+    gap:0%;
 
 }
-.main-container{
-    height: 100vh;
+.home-logo1 {
+  justify-self: center;
+  width: 97%;
+  background-color: #282828;
 }
-a{  
-    text-decoration: none;
-    color: white;
-} 
-.spotify-logo{ 
-    margin:8%; 
-    width: 80%; 
-    height:7%; 
-    padding-right: 15%;
-} 
-.home-logo1{ 
-    justify-self: center;
-    width: 97%;  
-    background-color: #282828; 
-}  
-.home-logo{
-    width: 8%; 
-    margin-right: 5%; 
-    margin-left:10%; 
-} 
-.mini-logo{
-    background-image: url("assets/mini-logo-background.png");
+.home-logo {
+    font-size: 100%;
+  width: 8%;
+  margin-right: 5%;
+  margin-left: 10%;
 }
-.mini-plus{
-    background-color: white;
+.mini-logo {
+  background-image: url("assets/mini-logo-background.png");
 }
-.box-3{  
-    margin-left: 10% ; 
-    flex-shrink: 1;
+.mini-plus {
+  background-color: white;
 }
-.box-4{ 
-    margin-top: 10%;  
-} 
-.box-1,.box-2,.box-3,.box-4{
-    font-size: 12px; 
+.box-3 {
+  margin-left: 10%;
+  flex-shrink: 1;
 }
- .main-container{
-    display: flex;
- }
- .head{
-    width: 100%;
-    display: flex;   
-    flex-direction: column; 
-    margin-top: 0;
-    margin-left: 18%;
-
- } 
- .head-box-1{
-    height: 20px;
-    margin-top: 10px;
-     position: sticky;
- }
- .head-box-2{
-     height: 30px;
-     margin-top: 10px;
- }
- .head-container{
-    position: fixed;
-    top: 0; 
-    right: 0;
-    display: flex;
-    padding-left: 200px;
-    width: 100%;
-    justify-content: space-between;  
-    
- }
- .head-container-element{
-    padding-left: 17%;
- }
- .folder{
-    width: 100%;  
-    display: flex;
-    flex-direction: column;  
-   margin-top: 2%;
-   color: white;
+.box-4 {
+  margin-top: 10%;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  font-size: 12px;
+}
+.main-container {
+  display: flex;
+}
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: 18%;
+}
+.head-box-1 {
+  height: 20px;
+  margin-top: 10px;
+  position: sticky;
+}
+.head-box-2 {
+  height: 30px;
+  margin-top: 10px;
+}
+.head-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  padding-left: 200px;
+  width: 100%;
+  justify-content: space-between;
+}
+.head-container-element {
+  padding-left: 17%;
+}
+.folder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  color: white;
+  margin-left: 2%;
+  height: 30%;
+}
+.folder-container {
+  width: 82%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.folder-element {
+  width: 33%;
+  height: 40%; 
+  display: flex; 
+  text-align: center; 
+  background-color: #303030;
+  overflow: hidden;
+}
+.f-text {
    margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.folder-element-img {
+  background-image: url("assets/heart-background.png");
+}
+.f-text-4 {
+  width: 40%;
+  text-align: left;
+}
+.suggestion-container {
+  width: 85%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+}
+.suggestion-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     
-      
- }
- .folder-container{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
+    margin-left: 6%;
+}
+.suggestion-text1{
+    font-size: 90% 
+}
+.suggestion-text2{
+    font-size: 60%
+}
+.suggestion-elements {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.suggestion-heading{
+    display: flex; 
     justify-content: space-between;
-    flex-wrap: wrap; 
- }
- .folder-element{ 
-    display: flex;
-    width: 33%; 
-     text-align: center; 
-     height: 20%;
-     background-color: #303030;    
-     overflow: hidden;
- } 
- .f-text { 
-    margin:5%;
- }
- .folder-element-img{
-    background-image: url("assets/heart-background.png"); 
- }
- .f-text-4{
+} 
+.suggestion-heading-p1{
+    margin-left: 2%;
+}
+.suggestion-heading-p2{
+    margin-left: 50%;
+}
+.suggestion-card {
+  width: 23%;
+  border: 0px solid;
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  margin: 1%;
+}
+.suggestion-img > img {
+  margin: 2%;
+  width: 90%;
+}
+.music-container {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 13%;
+  background-color: #181818;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    gap: 0;  
+}
+.music-box1 {
+    width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+   margin-left: 0.5%;
+   
+}
+.music-container-element-1 {
+    width: 20%; 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+   
+}
+.music-container-element-2 { 
+  display: flex;
+  flex-direction: column; 
+  margin-top: 10%; 
+  color: white;
+  width: 20%;
+  height: 50%;
+  font-size: 100%;
+   
+}
+/* .music-container-element-3 {
+    width: 30%;   
+  padding-bottom: 15%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+} */
+.music-p1 {
+  font-size: 90%;
+  width: 70%;
+  margin: 0%;
+}
+.music-p2 {
+  font-size: 50%; 
+  width: 50%;
+  margin: 0%;
+  
+}
+.Dreaming {
+  width: 100%;
+   
+}
+/* .green-heart{
+  width: 100%;
+  
+} */
+.music-player{
+    width: 80%;
+}
+.music-option{
+    width: 50%;
+}
+.music-box2{
     width: 40%;
-    text-align: left; 
- }
- .suggestion-container{
-    width: 80%;
-    color: white;
-    display: flex; 
-    flex-direction: column;
-    margin-top: 0%;
- }
-.suggestion-elements{ 
-    display: flex;   
-    justify-content: space-between;
-    text-align: center;
-    flex-wrap: wrap;
-    
-}
-.suggestion-card{ 
-    width: 23%;
-    border: 0px solid;
-    display: flex;
-    flex-direction: column;
-    background-color: #181818; 
-    margin: 1%;
-}
-.suggestion-img>img{
-    margin : 2%;
-    width: 90%; 
-}
-.music-container{
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 13%;
-    background-color: #181818;
-    display: flex; 
-    
-}
- .music-box1{
     display: flex;
     justify-content: center;
- }
-.music-container-element-1{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-.music-container-element-2{
-    display: flex;
-    flex-direction: column;
-     margin-top: 10%;
-    
-    color: white;
-    width: 100%;
-    height: 50%;
-}
-.music-container-element-3{
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 15%;
 }
-.music-p1{
-    font-size: 80%;
-    width: 100%;
-     margin: 0%;
-}
-.music-p2{
-    font-size: 50%;
-    width: 100%; 
-    margin :0%;
-    margin-right: 100%;
-}
-.Dreaming{
-    width: 90%;
-    height: 90%;
-}
-.music-img{
-    width: 100%;
-}
+.music-box3{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-right: 1%;
+} 
+ 
+
+ 

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
@@ -25,7 +25,7 @@
           alt="logo-image"
         />
 
-        <div class="box-1">
+        <div class="box-1 all-boxes">
           <p class="home-logo1 home-logo2">
             <img src="assets/home.png" class="home-logo" alt="home-logo" /><a
               href="#"
@@ -47,7 +47,7 @@
             /><a href="#">Your Library</a>
           </p>
         </div>
-        <div class="box-2">
+        <div class="box-2 all-boxes">
           <p>
             <img
               src="assets/mini-plus.png"
@@ -70,7 +70,7 @@
             />Your Episodes
           </p>
         </div>
-        <div class="box-3">
+        <div class="box-3 all-boxes">
           <p>FAV</p>
           <p>Daily Mix 1</p>
           <p>Discover Weekly</p>
@@ -78,7 +78,7 @@
           <p>Dance / Electronix Mix</p>
           <p>EDM / Popular</p>
         </div>
-        <div class="box-4">
+        <div class="box-4 all-boxes">
           <img
             src="assets/download-logo.png"
             class="home-logo"
@@ -107,7 +107,7 @@
             <img src="assets/User.png" class="head-box-2" alt="user-img" />
           </div>
         </div>
-        <!-- folders -->
+        <!-- playlist -->
         <div class="folder">
           <div><h1>Good morning</h1></div>
           <div class="folder-container">
@@ -127,15 +127,14 @@
               <img src="assets/korean.png" alt="korean" />
               <div class="f-text">K/ DA</div>
             </div>
-            <div class="folder-element">
-              <img src="assets/effect.png" alt="effect" />
-              <div class="f-text f-text-4">Dance / Electronic Mix</div>
-            </div>
           </div>
         </div>
         <!-- suggestion -->
         <div class="suggestion-container">
-          <div class="suggestion-text"><h1>Shows you might like</h1></div>
+          <div class="suggestion-heading">
+            <div class="suggestion-heading-p1"><h1>Shows you might like</h1></div>
+            <div class="suggestion-heading-p12"><h5>SEE ALL</h5></div>
+          </div>
           <div class="suggestion-elements">
             <div class="suggestion-card">
               <div class="suggestion-img">
@@ -144,74 +143,112 @@
                   alt="weekly-motivation"
                 />
               </div>
-              <div>Weekly Motivatio...</div>
-              <div>Ben Ina Scott</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">Weekly Motivatio...</div>
+              <div class="suggestion-text2">Ben Ina Scott</div>
+            </div>
             </div>
             <div class="suggestion-card">
               <div class="suggestion-img">
                 <img src="assets/MEDITATION SELF.png" alt="MEDITATION" />
               </div>
-              <div>MEDITATION SELF</div>
-              <div>Ibn Hussain Aleen</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">MEDITATION SELF</div>
+              <div class="suggestion-text2">Ibn Hussain Aleen</div>
+            </div>
             </div>
             <div class="suggestion-card">
               <div class="suggestion-img">
                 <img src="assets/Words beyond.png" alt="word" />
               </div>
-              <div>Words beyond act...</div>
-              <div>Samuel Scott</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">Words beyond act...</div>
+              <div class="suggestion-text2">Samuel Scott</div>
+            </div>
             </div>
             <div class="suggestion-card">
               <div class="suggestion-img">
                 <img src="assets/The Alexa Show.png" alt="the Alexa show" />
               </div>
-              <div>The Alexa Show</div>
-              <div>Adriana Tom</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">The Alexa Show</div>
+              <div class="suggestion-text2">Adriana Tom</div>
+            </div>
             </div>
             <div class="suggestion-card">
               <div class="suggestion-img">
                 <img src="assets/The Alexa Show.png" alt="the Alexa show" />
               </div>
-              <div>The Alexa Show</div>
-              <div>Adriana Tom</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">The Alexa Show</div>
+              <div class="suggestion-text2">Adriana Tom</div> 
+            </div>
             </div>
             <div class="suggestion-card">
               <div class="suggestion-img">
                 <img src="assets/The Alexa Show.png" alt="the Alexa show" />
               </div>
-              <div>The Alexa Show</div>
-              <div>Adriana Tom</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">The Alexa Show</div>
+              <div class="suggestion-text2">Adriana Tom</div>
+            </div>
             </div>
             <div class="suggestion-card">
               <div class="suggestion-img">
                 <img src="assets/The Alexa Show.png" alt="the Alexa show" />
               </div>
-              <div>The Alexa Show</div>
-              <div>Adriana Tom</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">The Alexa Show</div>
+              <div class="suggestion-text2">Adriana Tom</div>
+            </div>
             </div>
             <div class="suggestion-card">
               <div class="suggestion-img">
                 <img src="assets/The Alexa Show.png" alt="the Alexa show" />
               </div>
-              <div>The Alexa Show</div>
-              <div>Adriana Tom</div>
+              <div class="suggestion-text"> 
+              <div class="suggestion-text1">The Alexa Show</div>
+              <div class="suggestion-text2">Adriana Tom</div>
+            </div>
             </div>
           </div>
         </div>
         <!-- footer -->
         <footer class="music-container">
-            <div class="music-box1">
-            <div class="music-container-element-1"> 
-                <div class="Dreaming"><img src="assets/Dreaming On.png" class="Dreaming" alt="Dreaming"></div>
-                <div class="music-container-element-2">
-                    <div><p class="music-p1">Dreaming On</p></div>
-                   <div><p class="music-p2">NEFFEX</p></div>
-                </div>
-                <div class="music-container-element-3"><img class="music-img" src="assets/green heart.png" class="green-heart" alt="green"></div>
+          <div class="music-box1">
+            <div class="music-container-element-1">
+              <div class="Dreaming">
+                <img
+                  src="assets/Dreaming On.png"
+                  class="Dreaming"
+                  alt="Dreaming"
+                />
+              </div>
+              <div class="music-container-element-2">
+                <div><p class="music-p1">Dreaming On</p></div>
+                <div><p class="music-p2">NEFFEX</p></div>
+              </div> 
             </div>
-        </div>
+          </div>
+
+          <div class="music-box2">
+            <img
+              src="assets/Music Player Options.png"
+              class="music-player"
+              alt="music-player"
+            />
+          </div>
+          <div class="music-box3">
+            <img
+              src="assets/Right options.png"
+              class="music-option"
+              alt="img"
+            /> 
+          </div>
+           
+             
         </footer>
-    </div>
+      </div>
     </div>
   </body>
 </html>
