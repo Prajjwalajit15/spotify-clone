@@ -269,3 +269,67 @@ nav {
 .current-song{
   width: 100%;
 }
+.music-box2>img{
+  width: 150%;
+}
+
+@media screen and (max-width: 768px) {
+   .spotify-logo{
+    height:20px;
+   }
+  nav{
+   font-size: 10px;
+  }
+   .grid{
+    font-size: 10px;
+  }
+  .song1-container{
+    display: none;
+  } 
+  .Dreaming{
+    width: 30px;
+  }
+  .music-box2{
+    width: 200px;
+  }
+  .hero-container{
+    font-size: 10px;
+  }
+  
+  .box-2{
+    margin-top: -30px;
+  }
+}
+@media screen and (max-width: 450px){
+  nav{
+    font-size: 8px;
+   } 
+   .album,.hide{
+    display: none;
+   }
+   .hero-container{
+    font-size: 5px;
+  }
+  .hero-container{
+    height: 100px;
+  }
+  .spotify-logo{
+    width: 40px;
+    height: 15px;
+  }
+}
+@media screen and (max-width: 375px){
+  .your-library,.liked-songs{
+    
+    font-size: 5px;
+  } 
+}
+@media screen and (max-width: 1440px){
+  .music-container-element-2{ 
+    font-size: 10px;
+  }
+  .music-box2{
+    width: 300px;
+  } 
+}
+
